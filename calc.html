@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calc.css">
+</head>
+<body>
+    <header class="main-header">Calculator - Task 2</header>
+    <section class="display">0</section>
+    <section class="buttons">
+                <ol class="digits">
+            <li><button onclick="press('7')">7</button></li>
+            <li><button onclick="press('8')">8</button></li>
+            <li><button onclick="press('9')">9</button></li>
+            <li><button onclick="press('4')">4</button></li>
+            <li><button onclick="press('5')">5</button></li>
+            <li><button onclick="press('6')">6</button></li>
+            <li><button onclick="press('1')">1</button></li>
+            <li><button onclick="press('2')">2</button></li>
+            <li><button onclick="press('3')">3</button></li>
+            <li><button onclick="press('0')">0</button></li>
+            <li><button onclick="press('.')">.</button></li>
+            <li><button onclick="cal()">=</button></li>
+        </ol>
+        <ol class="operations">
+        <li><button onclick="clr()">C</button></li>
+        <li><button onclick="press('+')">+</button></li>
+        <li><button onclick="press('-')">-</button></li>
+        <li><button onclick="press('*')">x</button></li>
+        <li><button onclick="press('%')">%</button></li>
+        <li><button onclick="press('/')">/</button></li>
+        </ol>
+    </section>
+    <script src="calc.js"></script>
+</body>
+</html>
