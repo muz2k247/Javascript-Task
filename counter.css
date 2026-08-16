@@ -1,0 +1,36 @@
+body {
+    display: grid;
+    flex-direction: column;
+    background-color: #f5f5f0;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 40px;
+    color: #222;
+    align-items: center;
+    justify-content: center;
+}
+
+#count-el {
+    border: 1px solid #d8cec3;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+button {
+    width: 200px;
+    padding: 15px 10px;
+    border: 1px solid #d8cec3;
+    border-radius: 50px;
+    background-color: rgba(104, 153, 160, 0.47);
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: #e0e0e0;
+}
